@@ -4,7 +4,7 @@ body {
     width: 100%;
     height: 100%;
     color: rgba(218,154,170);
-    background-color: #000
+    background-color: rgb(255, 255, 255)
 }
 
 html {
@@ -12,17 +12,17 @@ html {
     height: 100%
 }
 
-h1,
+h1{
+    font-family: 'Bad Script', cursive;
+}
 h2,
 h3,
-h4,
-h5,
-h6 {
+{
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin: 0 0 35px;
     letter-spacing: 1px;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 p {
@@ -43,7 +43,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: rgba(55,131,189)
+    color: rgb(104, 0, 45);
 }
 
 a:focus,
@@ -56,15 +56,15 @@ a:hover {
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background-color: #000
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255)
 }
 
 #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
-    color: rgb(45, 223, 21);
-    border: 1px solid #fff
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.123)
 }
 
 #mainNav .navbar-brand {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 #mainNav a {
-    color: #fff
+    color: rgb(255, 255, 255)
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -84,13 +84,13 @@ a:hover {
 #mainNav .navbar-nav .nav-item:hover {
     color: fade(white, 80%);
     outline: 0;
-    background-color: transparent
+    background-color: rgba(255, 255, 255, 0)
 }
 
 #mainNav .navbar-nav .nav-item:active,
 #mainNav .navbar-nav .nav-item:focus {
     outline: 0;
-    background-color: transparent
+    background-color: rgba(255, 255, 255, 0)
 }
 
 @media (min-width:992px) {
@@ -107,26 +107,29 @@ a:hover {
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, .3);
-        background: #000
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        background: rgb(104, 0, 45);
     }
     #mainNav .nav-link.active {
         outline: 0;
-        background-color: rgba(255, 255, 255, .3)
+        background-color: rgba(255, 255, 255, 0)
     }
     #mainNav .nav-link.active:hover {
-        color: #fff
+        color: rgba(255, 255, 255, 0)
     }
 }
+/* #aboutBox{
+    position:center;
+} */
 /*  home*/
 .masthead {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 200px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/430H.jpg) no-repeat bottom center scroll;
+    color: rgb(104, 0, 45);
+    background: url(../img/paper.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -189,22 +192,18 @@ a:hover {
 
 .download-section {
     color: #fff;
-    background: url(../img/443H2.jpg) no-repeat center center scroll;
-    background-color: rgb(136, 128, 128);
+    background: url(../img/tic-tac-toe.png);
+    background-repeat: repeat;
+    /* background-color:rgb(252, 109, 145); */
+    /* background-color: rgba(255, 137, 64, 0.645); */
+    
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
 }
-#about{
-    background-color: rgba(255, 102, 6, 0.152);
-    background-blend-mode: overlay;
-}
-#contact{
-    background-color: rgba(218, 154, 170, 0.152);
-    background-blend-mode: screen;
-}
+
 .btn {
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -216,17 +215,17 @@ a:hover {
 }
 
 .btn-default {
-    color: rgba(55,131,189);
-    border: 1px solid rgba(55,131,189);
+    color:rgb(68, 68, 68);
+    border: 2px solid rgb(104, 0, 45);
     background-color: transparent
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    color: rgb(47, 190, 47);
-    border: 1px solid rgba(232,141,86);
+    color: rgb(255, 66, 148);
+    border: 1px solid rgb(255, 98, 0);
     outline: 0;
-    background-color: rgba(55,131,189)
+    background-color: rgb(255, 3, 112);
 }
 
 ul.banner-social-buttons {
@@ -252,11 +251,11 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: black;
+    background-color: rgb(104, 0, 45);;
 }
 
 footer p {
-    color: rgba(232,141,86);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     margin: 0
 }
