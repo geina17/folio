@@ -1,6 +1,6 @@
 {
     "title": "Grayscale",
-    "main": "index.js",
+    "main": "index.html",
     "name": "startbootstrap-grayscale",
     "version": "4.0.0",
     "description": "A grayscale one page HTML theme for Bootstrap.",
@@ -42,7 +42,7 @@
         "gulp-uglify": "3.0.0"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.html"
     }
     
 }
