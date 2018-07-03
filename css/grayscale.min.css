@@ -118,8 +118,8 @@ a:hover {
         color: rgba(255, 255, 255, 0)
     }
 }
-/* #aboutBox{
-    position:center;
+/* #about{
+    background: url(../img/memphis-colorful.png);
 } */
 /*  home*/
 .masthead {
@@ -192,16 +192,17 @@ a:hover {
 
 .download-section {
     color: #fff;
-    background: url(../img/tic-tac-toe.png);
-    background-repeat: repeat;
+    background: url(../img/whitediamond_@2X.png);
+   /* width:100%; */
+   /* height:auto; */
     /* background-color:rgb(252, 109, 145); */
     /* background-color: rgba(255, 137, 64, 0.645); */
     
     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    /* background-size: cover */
 }
 
 .btn {
@@ -222,10 +223,10 @@ a:hover {
 
 .btn-default:focus,
 .btn-default:hover {
-    color: rgb(255, 66, 148);
-    border: 1px solid rgb(255, 98, 0);
+    color: rgb(221,172,190);
+    border: 1px solid rgb(249,171,139);
     outline: 0;
-    background-color: rgb(255, 3, 112);
+    background-color: rgb(221,172,190);
 }
 
 ul.banner-social-buttons {
