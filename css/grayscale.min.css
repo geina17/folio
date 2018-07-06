@@ -1,9 +1,27 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../css/fonts/webfontkit/caviardreams-webfont.woff2') format('woff2'),
+         url('../css/fonts/webfontkit/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jellyka_saint-andrews_queenRg';
+    src: url('../css/fonts/webfontkit/saint-andrews_queen-webfont.woff2') format('woff2'),
+         url('../css/fonts/webfontkit/saint-andrews_queen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
     width: 100%;
     height: 100%;
-    color: rgba(218,154,170);
+    color: rgb(199, 0, 0);
     background-color: rgb(255, 255, 255)
 }
 
@@ -13,12 +31,14 @@ html {
 }
 
 h1{
-    font-family: 'Bad Script', cursive;
+    font-family: 'jellyka_saint-andrews_queenRg';
+    font-size: 100px !important;
+    color: rgb(199, 0, 0);
 }
+
 h2,
-h3,
-{
-    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h3,{
+    font-family: 'caviar_dreamsregular'!important;
     font-weight: 700;
     margin: 0 0 35px;
     letter-spacing: 1px;
@@ -43,17 +63,17 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: rgb(104, 0, 45);
+    color: #4A5154;
 }
 
 a:focus,
 a:hover {
     text-decoration: none;
-    color: rgba(218,154,170)
+    color: rgb(199, 0, 0)
 }
 
 #mainNav {
-    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'caviar_dreamsregular'!important;
     margin-bottom: 0;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -108,7 +128,7 @@ a:hover {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0);
-        background: rgb(104, 0, 45);
+        background: #4A5154;
     }
     #mainNav .nav-link.active {
         outline: 0;
@@ -128,8 +148,8 @@ a:hover {
     height: 100%;
     padding: 200px 0;
     text-align: center;
-    color: rgb(104, 0, 45);
-    background: url(../img/paper.jpg) no-repeat bottom center scroll;
+    color: #4A5154;
+    background: url(../img/technology2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,15 +192,15 @@ a:hover {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-    color: rgba(218,154,170);
-    border: 2px solid rgba(218,154,170);
+    color: rgb(199, 0, 0);
+    border: 2px solid rgb(199, 0, 0);
     border-radius: 100% !important;
     background: 0 0
 }
 
 .btn-circle:focus,
 .btn-circle:hover {
-    color: rgb(47, 190, 47);
+    color: rgb(199, 0, 0);
     outline: 2px;
     background: rgba(71, 64, 131, 0.378)
 }
@@ -192,21 +212,12 @@ a:hover {
 
 .download-section {
     color: #fff;
-    background: url(../img/whitediamond_@2X.png);
-   /* width:100%; */
-   /* height:auto; */
-    /* background-color:rgb(252, 109, 145); */
-    /* background-color: rgba(255, 137, 64, 0.645); */
-    
-    
-    /* -webkit-background-size: cover; */
-    /* -moz-background-size: cover; */
-    /* -o-background-size: cover; */
-    /* background-size: cover */
+    background: url(../img/light-grey-terrazzo.png);
+  
 }
 
 .btn {
-    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'caviar_dreamsregular'!important;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -217,16 +228,16 @@ a:hover {
 
 .btn-default {
     color:rgb(68, 68, 68);
-    border: 2px solid rgb(104, 0, 45);
+    border: 2px solid #4A5154;
     background-color: transparent
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    color: rgb(221,172,190);
-    border: 1px solid rgb(249,171,139);
+    color: rgb(199, 0, 0);
+    border: 1px solid #A7A7A7;
     outline: 0;
-    background-color: rgb(221,172,190);
+    background-color: rgb(255, 162, 196);
 }
 
 ul.banner-social-buttons {
@@ -252,7 +263,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: rgb(104, 0, 45);;
+    background-color:rgb(0, 0, 0);
 }
 
 footer p {
