@@ -138,9 +138,9 @@ a:hover {
         color: rgba(255, 255, 255, 0)
     }
 }
-/* #about{
-    background: url(../img/memphis-colorful.png);
-} */
+#about{
+    padding-top:50px;
+}
 /*  home*/
 .masthead {
     display: table;
@@ -202,12 +202,12 @@ a:hover {
 .btn-circle:hover {
     color: rgb(199, 0, 0);
     outline: 2px;
-    background: rgba(71, 64, 131, 0.378)
+    background: rgba(71, 64, 131, 0.378);
 }
 
 .content-section {
-    padding-top: 150px;
-    padding-bottom: 150px
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .download-section {
