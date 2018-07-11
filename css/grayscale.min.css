@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: 'arconregular';
+    src: url('../css/fonts/webfontkit/arcon-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/webfontkit/arcon-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'jellyka_saint-andrews_queenRg';
     src: url('../css/fonts/webfontkit/saint-andrews_queen-webfont.woff2') format('woff2'),
          url('../css/fonts/webfontkit/saint-andrews_queen-webfont.woff') format('woff');
@@ -37,7 +46,7 @@ h1{
 }
 
 h2{
-    font-family: 'caviar_dreamsregular'!important;
+    font-family: 'arconregular'!important;
     font-weight: 700;
     margin: 0 0 35px;
     letter-spacing: 1px;
@@ -45,7 +54,7 @@ h2{
 }
 
 h3,p {
-    font-family: 'caviar_dreamsregular'!important;
+    font-family: 'arconregular'!important;
     font-size: 12px;
     line-height: 1.5;
     margin: 0 0 25px
